@@ -83,6 +83,17 @@ a:hover {
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Flexbox anti-desborde jerárquico premium */
+.main-layout,
+.content-wrapper,
+.doc-content,
+.step-body,
+.alert-content {
+  min-width: 0;
+  max-width: 100%;
 }
 
 /* Sidebar Styling */
